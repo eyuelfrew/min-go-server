@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, coverage
+*.test
+coverage.out
+
+# Build output
+bin/
+out/
+build/
+
+# Go build artifacts
+pkg/
+
+# Vendor (optional - uncomment if you commit vendor/)
+# vendor/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.local
+
+# Logs and temp files
+*.log
+*.tmp
+*~
+
+# Node modules if present
+node_modules/
+
+# Ignore coverage/profile output
+*.out
+
+# Don't ignore go.sum (keep it committed)
